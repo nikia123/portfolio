@@ -1,0 +1,64 @@
+{
+"name": "Nikia Shaw",
+"email": "nikia@nshaw.dev",
+"city": "Victoria, BC",
+"job": "Web Developer",
+"pages": {
+    "page-home": {
+        "title": "Home",
+        "heading": "Hi, I'm Nikia.",
+        "text": "I'm a web developer based in Victoria, BC. I'm intent on building accessible, performant, and inclusive web experiences. I would like to acknowledge that I live and work on the traditional territory of the Lekwungen peoples, today known as the Esquimalt and Songhees Nations. Thank you for having me, T’oyaxsut nüüsm (thank you all)."
+        },
+    "page-projects": {
+        "title": "Projects",
+        "heading": "Projects",
+        "featured-projects": {
+            "project-1": {
+                "title": "Full-Stack Portfolio",
+                "date": "June 2023",
+                "technologies": {
+                    "front-end": "React, TypeScript, TailwindCSS, Git",
+                    "back-end": "Raspberry Pi OS, Ubuntu, Nginx, MariaDB, PHP, LetsEncrypt, Certbot, SSH, Git, Node.js"
+                    },
+                "github": "https://github.com/nikia123/portfolio"
+                },
+            "project-2": {
+                "title": "Capstone Project",
+                "date": "June 2023"
+                },
+            "project-3": {
+                "title": "School Wordpress Site",
+                "date": "May 2023",
+                "technologies": "WordPress, PHP, HTML, Sass, Git",
+                "link": "https://nshaw.dev/school",
+                "github": "https://github.com/nikia123/wp-school"
+                },
+            "project-4": {
+                "title": "BKPR - Next.js Movie App",
+                "date": "April 2023",
+                "technologies": "Next.js, TypeScript, Sass, Git, Adobe XD, Adobe Photoshop",
+                "link": "https://nshaw.dev/bkpr",
+                "github": "https://github.com/nikia123/bkpr-db"
+                },
+            "project-5": {
+                "title": "Yijing Oracle",
+                "date": "February & May 2023",
+                "technologies": "HTML, CSS, TypeScript, Git",
+                "link": "https://nshaw.dev/yijing",
+                "github": "https://github.com/nikia123/yijing"
+                },
+            "project-6": {
+                "title": "Front-Page Recreation: Audioengine",
+                "date": "March 2023",
+                "technologies": "HTML, Sass, JavaScript, Git",
+                "link": "https://nshaw.dev/audioengine",
+                "github": "https://github.com/nikia123/WD2-P01"
+                }
+            }
+        },
+   "page-about": {
+        "title": "About",
+        "heading": "About Me"
+        }
+    }
+}
