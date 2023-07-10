@@ -9,7 +9,7 @@
 /build
 
 # personal images
-public/data/images
+/public/images
 
 # misc
 .DS_Store
