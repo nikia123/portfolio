@@ -34,19 +34,19 @@ function ProjectContainer () {
         <button
           key={index}
           onClick={() => handleTabClick(index, project)}
-          className={activeTab === index ? "px-2 py-3 m-2 shadow-gray-500 shadow-inner rounded-md" : "p-3 m-2 shadow-gray-500 shadow-lg rounded-md"}
+          className={activeTab === index ? "px-2 py-3 m-2  shadow-gray-500 shadow-inner rounded-md" : "p-3 m-2 shadow-gray-500 shadow-lg rounded-md"}
         >
           <p>{project.title}</p>
         </button>
     ));
 
     return (
-        <section className='shadow-gray-400 shadow-inner rounded-md p-2 pb-6 mt-2 mb-6' id="projects">
+        <section id="projects" className='max-w-screen-lg shadow-gray-400 shadow-inner rounded-md p-2 px-4 pb-6 mt-2 mb-6 mx-auto'>
             {projectPageData && 
             <>
-              <h2 className="m-auto block w-fit border-b-2 border-primary my-6 text-xl">{projectPageData.heading}</h2>
+              <h2 className="m-auto block w-fit border-b-2 border-primary my-6 text-xl lg:desktop-header">{projectPageData.heading}</h2>
             </>}
-            <div className='flex flex-wrap min-h-fit justify-evenly'>
+            <div className='flex flex-wrap min-h-fit justify-evenly max-w-[44rem] mx-auto'>
                 {projectButtons}
             </div>
                 {selectedProjectData && <Project projectData={selectedProjectData} />}
