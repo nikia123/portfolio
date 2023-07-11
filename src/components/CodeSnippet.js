@@ -15,7 +15,7 @@ export default function CodeSnippet({projectData}) {
     }, [projectData]);
 
     return(
-        <pre className="text-sm whitespace-pre-wrap break-words my-6">
+        <pre className="text-sm whitespace-pre-wrap break-words my-6 lg:text-lg mb-16">
             <code>
                 {codeSnippet}
             </code>
