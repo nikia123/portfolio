@@ -6,6 +6,12 @@ function ProjectContainer () {
     const [projectPageData, setProjectPageData] = useState();
     const [projects, setProjects] = useState([]);
     const [selectedProjectData, SetSelectedProjectData] = useState();
+    const [activeTab, setActiveTab] = useState(null);
+
+    function handleTabClick(index, project) {
+        SetSelectedProjectData(project);
+        setActiveTab(index);
+    }
 
     useEffect(() => {
         async function fetchData() {
@@ -27,21 +33,23 @@ function ProjectContainer () {
     const projectButtons = projects.map((project, index) => (
         <button
           key={index}
-          onClick={() => SetSelectedProjectData(project)}
+          onClick={() => handleTabClick(index, project)}
+          className={activeTab === index ? "px-2 py-3 m-2 shadow-gray-500 shadow-inner rounded-md" : "p-3 m-2 shadow-gray-500 shadow-lg rounded-md"}
         >
           <p>{project.title}</p>
         </button>
     ));
 
     return (
-        <section id="projects">
+        <section className='shadow-gray-400 shadow-inner rounded-md p-2 pb-6 mt-2 mb-6' id="projects">
             {projectPageData && 
             <>
-              <h2>{projectPageData.title}</h2>
-              <h3>{projectPageData.heading}</h3>
+              <h2 className="m-auto block w-fit border-b-2 border-primary my-6 text-xl">{projectPageData.heading}</h2>
             </>}
-            {projectButtons}
-            {selectedProjectData && <Project projectData={selectedProjectData} />}
+            <div className='flex flex-wrap min-h-fit justify-evenly'>
+                {projectButtons}
+            </div>
+                {selectedProjectData && <Project projectData={selectedProjectData} />}
         </section>
     );
 }
