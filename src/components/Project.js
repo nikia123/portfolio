@@ -51,12 +51,15 @@ function Project({projectData}) {
           <div id="external-links" className="flex justify-around">
               <a 
                 className="p-3 m-2 shadow-secondary shadow-lg rounded-md" 
-                href={projectData.link}>Site Link
+                href={projectData.link}
+                target="_blank">Site Link
+
               </a>
 
               <a 
                 className="p-3 m-2 shadow-primary shadow-lg rounded-md" 
-                href={projectData.github}>Github Link
+                href={projectData.github}
+                target="_blank">Github Link
               </a>
           </div>
         </>

@@ -19,7 +19,7 @@
                 "date": "June 2023",
                 "technologies": "React, Figma, Javascript, Tailwind CSS, Git, Linux (Ubuntu), Apache, MariaDB, LetsEncrypt, Certbot, SSH, PuTTY",
                 "github": "https://github.com/nikia123/portfolio",
-                "description": "My portfolio is my successful attempt at creating a full-stack web application. The front-end is built with React and TailwindCSS, and the back-end is built with Linux (Ubuntu), Apache, MariaDB, PHP, LetsEncrypt, Certbot, SSH, and PuTTY. I also used Git for version control. I am very proud of this project because it is the first time I have built a full-stack web application. I learned a lot about the process of building a full-stack web application, specifically back end management",
+                "description": "My portfolio is my successful attempt at creating a full-stack web application. The front-end is built with React and TailwindCSS, and the back-end is built with Linux (Ubuntu), Apache, MariaDB, PHP, LetsEncrypt, Certbot, SSH, PuTTY (SSH) and with Git for version control. I am very proud of this project because it's' my first full-stack web application. I learned a lot about the process of building a full-stack web application, specifically basic back end management. Developing the awareness of optimizations for resource control for the front end, as well as sufficient back end resources to serve the front end, was an interesting challenege.",
                 "code": "./code-snippets/portfolio.js",
                 "notes": "The specific piece of code above is what I used to output it. By dynamically importing files within my component using code-splitting, I can keep my JSON data relatively organized as well as my specific code snippets. I've learned this is also an effective way to manage initial load overhead, I assume this will be one of many methods to keep a site relatively fast.",
                 "image": "./images/project-images/portfolio.png"
@@ -30,7 +30,7 @@
                 "technologies": "WordPress, Sass, Git, Adobe XD, Asana",
                 "link": "https://capstone.bcitwebdeveloper.ca",
                 "github": "https://github.com/htpwebdesign/climate-conference",
-                "description": "This project is the culmination of what I learned while at BCIT. I worked with a team of 3 other students to create a website for a fictional climate conference. We used WordPress as the CMS, Sass for styling, Git for version control, Adobe XD for wireframing, and Asana for project management. I am very proud of this project because it represents months of study and the goals and aspirations for everyone on my team. This project was planned from start to finish, using a mock memo of understanding, wireframes, and development plan.",
+                "description": "This project is the culmination of what I learned while at BCIT. I worked with a team of 3 other students to create a website for a fictional climate conference. We used WordPress as the CMS, Sass for styling, Git for version control, Adobe XD for wireframing, and Asana for project management. I am very proud of this project because it represents months of study as well as the goals and aspirations for everyone on my team. This project was planned from start to finish, using a mock memo of understanding, wireframes, and development plan. Underscores was used as the starter theme, custom PHP was written to output content, create custom post types, and taxonomies. Content Storage primarily uses ACF Fields to restrict content input and output, with the block editor removed for the same purpose.",
                 "code": "./code-snippets/climate-conference.js",
                 "notes": "The code above is for my team's Climate Conference .htaccess file. While troubleshooting my backend for my fullstack portfolio I discovered the ease of Apache for WordPress, as well environment variable storage, especially with WordPress Sites. I've personally found Apache to be a lot easier to work with while using WordPress.",
                 "image": "./images/project-images/climate-conference.png"
@@ -41,7 +41,7 @@
                 "technologies": "WordPress, PHP, HTML, Sass, Git",
                 "link": "https://nshaw.dev/school",
                 "github": "https://github.com/nikia123/wp-school",
-                "description": "This pretend school site was developed with one other person and is a WordPress site. We used Sass for styling, Git for version control, and PHP for the back-end. This project was intended to put our WordPress skills to the test.",
+                "description": "This pretend school site was developed with one other teammate, and is a WordPress site. Underscores was used as the starter theme, custom PHP was written to output content, create custom post types, and taxonomies. We used Sass for styling, Git for version control, and PHP for the back-end. This project was intended to put our WordPress skills to the test.",
                 "code": "./code-snippets/school.js",
                 "notes": "The featured code above highlights a WordPress double loop, where content from both the Staff and Faculty for the school is output. WordPress is a great option to efficiently and effectively store and output data dynamically.",
                 "image": "./images/project-images/school.png"
@@ -50,22 +50,22 @@
                 "title": "BKPR - Next.js Movie App",
                 "date": "April 2023",
                 "technologies": "Next.js, Sass, Git, Adobe XD, Adobe Photoshop",
-                "link": "https://nshaw.dev/bkpr",
+                "link": "https://bkpr-db.vercel.app/",
                 "github": "https://github.com/nikia123/bkpr-db",
-                "description": "BKPR (Be Kind Please Rewind) is a database movie web application that uses Next.js. I was primarily responsible for the component logic, and had developed the initial web design. This site was inspired by the movie rental stores of the 80s and 90s. I am very proud of this project because it was the first time I had used Next.js, and I learned a lot about the framework. I also learned a lot about component logic and how to use it to create a dynamic REST API web application.",
+                "description": "BKPR (Be Kind Please Rewind) is a database movie web application that uses Next.js. I was primarily responsible for the component logic, and had developed the initial web design. This site was inspired by the movie rental stores of the 80s and 90s. I am very proud of this project because it was the first time I had used Next.js, and I learned a lot about the framework. I also learned a lot about component logic and how to use it to create a dynamic REST API web application. The version of Next.js used was while appDir was in the experimental phase, so there may be some deprecated code, specifically regarding the asynchronous functions.",
                 "code": "./code-snippets/bkpr.js",
-                "notes": "BKPR introduced Next.js as a meta-framework for me, I learned a lot about the benefits of using a framework like Next.js such as server side and client side components. Though I wasn't able to entirely incorporate server side components, the introduction was still of benefit for me. The code highlighted above showcases my provider and reducer, it was my first attempt at global state management.",
+                "notes": "BKPR introduced Next.js as a meta-framework for me, I learned a lot about the benefits of using a framework like Next.js such as server side and client side components. Though I wasn't able to entirely incorporate server side components, the introduction was still of benefit for me. The code highlighted above showcases my provider and reducer components, it was my first attempt at global state management and was an interesting challenege.",
                 "image": "./images/project-images/bkpr.png"
                 },
             "yijing": {
                 "title": "Yijing Oracle",
                 "date": "February & May 2023",
-                "technologies": "HTML, CSS, TypeScript, Git",
+                "technologies": "HTML, CSS, JavaScript, TypeScript, Git",
                 "link": "https://nshaw.dev/yijing",
                 "github": "https://github.com/nikia123/yijing",
-                "description":"The Yijing, also known as the I Ching, is an ancient Chinese Divination Tool. In our second month of the program I had created the oracle with vanilla JavaScript. I then rewrote it in TypeScript months later for practice. I enjoyed writing this application the most, it tested not only my JavaScript skills, but also my deduction skills. Following my Python course at BCIT, this was my first attempt at writing a complex application in JavaScript and in a front-end environment. Since this application is based on a cultural practice, I did my best to ensure that it was not only culturally accurate, but so that the logic followed a traditional coin toss method.",
+                "description":"The Yijing, also known as the I Ching, is an ancient Chinese divination tool. In our second month of the program I had created this oracle with vanilla JavaScript. It was then rewritten it in TypeScript months later for practice and as a basic introduction to TS. I enjoyed writing this application the most, it tested not only my JavaScript skills, but also my deduction skills. Following my Python course at BCIT, this was my first attempt at writing a complex application in JavaScript and in a front-end environment. Since this application is based on a cultural practice, I did my best to ensure that it was not only culturally accurate, but so that the logic followed a traditional coin toss method. Hexagram data is served from a JSON file, which are called as mock API requests.",
                 "code": "./code-snippets/yijing.js",
-                "notes": "The featured original JavaScript syntax above is one of the few core functions of my single-page application. This specific function takes two boolean arrays as parameters and returns another boolean array. For the initialHexagram List, false is associated with yin, and yang associated with true. The changing line list is also boolean, though if an index is true, it means that the parallel index of the initialHexagramList is changing. In that case, the newHexagram index value (returned value) is switched to the opposite boolean value of the initialHexagramList with a bang operator. The initial hexagram line image output is then replaced with a changing line image using a switch-case of the index and a helper function. If the value of the changingLineList is false, the value is simply copied to the new array. This results in the transformed hexagram array which is returned for further processing.",
+                "notes": "The featured original JavaScript syntax above is one of the few core functions of my single-page application. This specific function takes two boolean arrays as parameters and returns another boolean array. For the initialHexagram List, false is associated with yin, and true associated with yang. The changingLineList is also boolean, though if an index is true, it means that the parallel index of the initialHexagramList is changing. In that case, the newHexagram index value (returned value) is switched to the opposite boolean value of the initialHexagramList with a bang operator. The initial hexagram line image output is then replaced with a changing line image using a switch-case of the index and a helper function. If the value of the changingLineList is false, the value is simply copied to the new array. This results in the transformed hexagram array which is returned for further processing.",
                 "image": "./images/project-images/yijing.png"
                 },
             "audioengine": {
@@ -76,7 +76,7 @@
                 "github": "https://github.com/nikia123/WD2-P01",
                 "description": "This project was a recreation of the front page of Audioengine's website. I had developed this with two others, and we had just learned Sass and version control with Git. I was personally responsible for some styling and the slick carousels.",
                 "code": "./code-snippets/audioengine.js",
-                "notes": "This was my first foray into the world of Sass and Git version Control. In the above code snippet, I had used slick to specify the carousel settings for the hero image. The slider dots and buttons were custom styled and repositioned to fit the page nicely. Some custom JS code had been written to check the window size to try to prevent the carousels from breaking, which sometimes works but sometimes not.",
+                "notes": "This was my first foray into the world of Sass and Git version Control. In the above code snippet, I had used slick to specify the carousel settings for the hero image. The slider dots and buttons were custom styled and repositioned to fit the page nicely. Some custom JS code had been written to check the window size to try to prevent the carousels from breaking and maintain responsiveness.",
                 "image": "./images/project-images/audioengine.png"
                 }
             }
@@ -87,39 +87,39 @@
         "text": "In addition to coding, I'm concerned with the opportunities and productivity that webpages and applications can bring to others. I'm a firm believer in the power of the web to connect people and ideas. I'm always looking for opportunities to learn and grow as a developer, and I'm excited to see what the future of the web holds. \n In my spare time I love to learn about astronomy, technology, and psychology. I also enjoy playing video games, reading, and watching movies. I like to tinker with technology too. I'm currently trying to develop a rasperry pi to host a tabletop game server for a game I play with friends, called MegaMek.",
         "astro-images": {
             "image-1": {
-                "src": "/images/astrophotography/skeena-bridge-1.jpg",
+                "src": "/images/astrophotography/skeena-bridge-1.webp",
                 "alt": "A long exposure photo on a bridge looking up at the milky way."
                 },
             "image-2": {
-                "src": "/images/astrophotography/skeena-bridge-2.jpg",
+                "src": "/images/astrophotography/skeena-bridge-2.webp",
                 "alt": "A long exposure photo of a bridge with the backdrop of the milky way."
                 },
             "image-3": {
-                "src": "/images/astrophotography/skeena-bridge-car.jpg",
+                "src": "/images/astrophotography/skeena-bridge-car.webp",
                 "alt": "A long exposure photo of a car crossing a bridge at night on the skeena river."
                 },
             "image-4": {
-                "src": "/images/astrophotography/skeena-northern-lights.jpg",
+                "src": "/images/astrophotography/skeena-northern-lights.webp",
                 "alt": "A long exposure photo of a bridge with the backdrop of the northern lights."
                 },
             "image-5": {
-                "src": "/images/astrophotography/prince-rupert-1.jpg",
+                "src": "/images/astrophotography/prince-rupert-1.webp",
                 "alt": "A long exposure photo of an inlet with the moon in the center."
                 },
             "image-6": {
-                "src": "/images/astrophotography/prince-rupert-2.jpg",
+                "src": "/images/astrophotography/prince-rupert-2.webp",
                 "alt": "A long exposure photo of an inlet with the moon in the center, surrounded by two trees."
                 },
             "image-7": {
-                "src": "/images/astrophotography/prince-rupert-3.jpg",
+                "src": "/images/astrophotography/prince-rupert-3.webp",
                 "alt": "A long exposure photo of an inlet with the moon in the center, the reflection of the moon on the water."
                 },
             "image-8": {
-                "src": "/images/astrophotography/kelowna-97c.jpg",
+                "src": "/images/astrophotography/kelowna-97c.webp",
                 "alt": "A long exposure photo of the milk way over a highway."
                 },
             "image-9": {
-                "src": "/images/astrophotography/heffley-lake.jpg",
+                "src": "/images/astrophotography/heffley-lake.webp",
                 "alt": "A long exposure photo of the milky way over a lake with a dock."
                 }
             },
