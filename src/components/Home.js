@@ -64,7 +64,7 @@ export default function Home() {
                     <div id="logo-and-name" className="flex justify-center py-2">
                         <img id="logo" className="h-24 block" src={logo} 
                             alt="The logo for my website, the letters N and S overlayed one another."/>
-                        <h1 className="px-4 text-2xl font-bold">Nikia Shaw <br/> Web Devloper</h1>
+                        <h1 className="px-4 text-2xl font-bold">Nikia Shaw <br/> Web Developer</h1>
                     </div>
 
                     <button id="theme-handler" onClick={handleThemeChange}>
