@@ -19,11 +19,11 @@ code {
 /* custom tailwind css classes */
 @layer components {
   .nav-links {
-    @apply bg-gray-100 px-6 py-3 m-2 border-x-4 border-gray-300 rounded-lg shadow-md shadow-gray-600 dark:bg-[#1c1c1c] dark:text-gray-300 dark:shadow-gray-100 dark:shadow-sm dark:border-gray-400;
+    @apply bg-gray-100 px-4 md:px-6 py-3 m-2 border-x-4 border-gray-300 rounded-lg shadow-md shadow-gray-600 dark:bg-[#1c1c1c] dark:text-gray-300 dark:shadow-gray-100 dark:shadow-sm dark:border-gray-400;
   }
 
   .nav-mobile{
-    @apply w-[23rem] relative flex justify-around rounded-xl bg-gray-100 shadow-xl shadow-gray-600 border border-b-4 border-gray-400 dark:bg-[#1c1c1c]
+    @apply md:w-[24rem] w-[20rem] relative flex justify-around rounded-xl bg-gray-100 shadow-xl shadow-gray-600 border border-b-4 border-gray-400 dark:bg-[#1c1c1c]
   }
 
   .nav-desktop {
