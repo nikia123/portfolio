@@ -3,11 +3,11 @@ const codeSnippet = () => {
         <>
         {`import { useEffect, useState } from "react";
 
-export default function CodeSnippet({projectDataPath}) {
+export default function CodeSnippet({projectData}) {
     const [codeSnippet, setCodeSnippet] = useState(null);
 
     useEffect(() => {
-        import(\`\${projectDataPath}\`)
+        import(\`\${projectData['path']}\`)
             .then((module) => {
                 setCodeSnippet(module.default);
             })
@@ -15,7 +15,7 @@ export default function CodeSnippet({projectDataPath}) {
                 console.log('There was an error importing the code snippet:', error);
             });
 
-    }, [projectDataPath]);
+    }, [projectData]);
 
     return(
         <pre>
