@@ -4,15 +4,15 @@
   "private": true,
   "homepage": "https://nshaw.dev",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.13.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "tinyglobby": "^0.2.15",
+    "web-vitals": "^5.1.0"
   },
   "scripts": {
     "build:style": "tailwindcss build src/styles/index.css -o src/styles/tailwind.css",
@@ -40,6 +40,9 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.2"
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.4.19"
   }
 }

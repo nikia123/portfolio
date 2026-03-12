@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html", // Add this if you haven't
   ],
   darkMode: "class",
   theme: {
@@ -11,9 +12,9 @@ module.exports = {
         secondary: '#4F3A13'
       },
       fontFamily: {
-      'sans-serif': ['Tajawal', 'sans-serif']
+        'sans-serif': ['Tajawal', 'sans-serif']
+      },
     },
   },
   plugins: [],
-}
 }
