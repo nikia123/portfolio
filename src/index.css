@@ -1,6 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
 
 body {
   margin: 0;
@@ -42,7 +45,7 @@ code {
 
 @font-face {
   font-family: Roboto;
-  src: url('/build/fonts/Roboto/Roboto-Light.ttf');
+  src: url('/public/fonts/Roboto/Roboto-Light.ttf');
   font-weight: normal;
   font-style: normal;
 }
